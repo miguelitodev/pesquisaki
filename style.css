@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	font-family: "Secular One", sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.card {
+	width: 300px;
+	height: 200px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.card__title {
+	font-size: 1.5rem;
+}
+
+.card__search {
+	display: flex;
+	flex-direction: column;
+}
+
+.card__search__input {
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.card__search__button {
+	color: white;
+	background-color: green;
+	border: none;
+	border-radius: 2px;
+
+	padding: 5px;
+	cursor: pointer;
+}

@@ -1,12 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pesquisaki</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div class="card">
+				<span class="card__title">Escreva o que deseja pesquisar 👌</span>
+				<div class="card__search">
+					<input
+						class="card__search__input"
+						type="text"
+						name="pesquisa"
+						id="pesquisa"
+						placeholder="Digite aqui..."
+					/>
+					<button type="button" class="card__search__button" onclick="search()">
+						Pesquisar
+					</button>
+				</div>
+			</div>
+		</main>
+		<script src="script.js"></script>
+	</body>
 </html>
