@@ -8,7 +8,6 @@
 
 ## Referências
 
-- <a target="_blank" href="#">Vídeo de Construção</a>
-- <a target="_blank" href="#">Documentação Javascript - Window</a>
-- <a target="_blank" href="#">Fonte usada - Secular One</a>
+- <a target="_blank" href="https://youtu.be/p4mR0O6nEEU">Vídeo de Construção</a>
+- <a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/API/Window/location">Documentação Javascript - Window</a>
 - <a target="_blank" href="https://favicon.io/favicon-converter/">Converter PNG para favicon</a>
